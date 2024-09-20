@@ -1,1 +1,1 @@
-# javaprogramming1Assignments
+These are codes for the assignments on Java syntax during my college studies. It was an introductory course that covered the fundamental concepts of programming languages by use of the popular Java language. The topics covered fundamental principles of programming, including data types, program control and decisions, loops, string manipulations, procedures, arrays, software testing, and debugging.
