@@ -37,7 +37,7 @@ public class GamifiedQuiz {
                 char userChoice;
 
                 while (true) {
-                    System.out.print("Enter your choice (A, B, C, D): ");
+                    System.out.print("Enter your choice (A, B, C, or D): ");
                     String input = quiz.nextLine().trim().toUpperCase();
 
                     // Check if the input is valid (A, B, C, D)
