@@ -32,20 +32,28 @@ public class GamifiedQuiz {
             char[] answer = {'A', 'B', 'B', 'C', 'C', 'A', 'B', 'B' };
             int score = 0;
             for (int i = 0; i < questions.length; i++) {
-                System.out.println("Question " +(i + 1)+ "." +questions[i]);
+                System.out.println("Question " + (i + 1) + "." + questions[i]);
                 System.out.println(choice[i]);
-                System.out.print("Enter your choice: ");
-                while (!quiz.hasNext("[ABCDE]".toUpperCase())) {
-                    quiz.next();
-                    System.out.println("Invalid input. Please enter A, B, C, or D.");
+                char userChoice;
+
+                while (true) {
+                    System.out.print("Enter your choice (A, B, C, D): ");
+                    String input = quiz.nextLine().trim().toUpperCase();
+
+                    // Check if the input is valid (A, B, C, D)
+                    if (input.length() == 1 && "ABCD".contains(input)) {
+                        userChoice = input.charAt(0);
+                        break; // Exit the loop on valid input
+                    } else {
+                        System.out.println("Invalid input. Please enter A, B, C, or D.");
+                    }
                 }
-                char userChoice = quiz.nextLine().toUpperCase().charAt(0);
-                if (userChoice == answer[i]) {
+                if(userChoice == answer[i]){
                     score++;
                 }
-                double percentage = (double) score / questions.length * 100;
-                System.out.println("Congratulations, " + name + "! You scored " + percentage + "%.");
             }
+            double percentage = (double) score/questions.length * 100;
+            System.out.println("Congratulations " + name+ "! You have scored " +percentage+ "%.");
         }
     }
 }
