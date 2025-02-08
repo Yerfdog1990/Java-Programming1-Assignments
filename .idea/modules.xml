@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Unit 1- Introduction to Java Programming/Unit 1- Introduction to Java Programming.iml" filepath="$PROJECT_DIR$/Unit 1- Introduction to Java Programming/Unit 1- Introduction to Java Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit 2- Control Structures/Unit 2- Control Structures.iml" filepath="$PROJECT_DIR$/Unit 2- Control Structures/Unit 2- Control Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit 3- Static Methods and Member Variables/Unit 3- Static Methods and Member Variables.iml" filepath="$PROJECT_DIR$/Unit 3- Static Methods and Member Variables/Unit 3- Static Methods and Member Variables.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaprogramming1Assignments.iml" filepath="$PROJECT_DIR$/.idea/javaprogramming1Assignments.iml" />
     </modules>
   </component>
